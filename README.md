@@ -27,7 +27,7 @@ chmod +x sync_files.sh
 Exécuter le script avec des arguments :
 
 bash
-./sync_files.sh -s <serveur distant> -d <dossier source> -t <dossier cible> --safe
+./sok_sync.sh -s <serveur distant> -d <dossier source> -t <dossier cible> --safe
 -s : spécifie le serveur distant.
 -d : dossier source.
 -t : dossier cible.
@@ -35,7 +35,7 @@ bash
 Lancer en mode daemon (si activé) :
 
 bash
-./sync_files.sh --daemon
+./sok_sync.sh --daemon
 Limitations
 La fonctionnalité daemon n'est pas encore finalisée dans cette version. Une mise à jour sera publiée prochainement pour l'inclure.
 
